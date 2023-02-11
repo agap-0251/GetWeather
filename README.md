@@ -9,6 +9,9 @@ I have to used WeatherAPI to access the weather details in various places.You ca
 and you will get free access for few weeks and you have to pay if you still want to use the API.
 Here are few images of how the websites looks like.
 
+![first](https://user-images.githubusercontent.com/121557455/218276106-74eb40b7-c9e1-4eb5-a406-a9614455a383.png)
+![second](https://user-images.githubusercontent.com/121557455/218276116-063b4131-05d4-43e4-8e57-287db13634b8.png)
+
 The background images changes based on the conditions of weather (rainy, cloudy, snow, clear sky, day and night )which will look good.
 You just have to use your own API key in JS file instead of mine.I only get it free for few weeks , so do you if you don't pay.
 I will also include Forecasting the weather option and other cools options in the future.
