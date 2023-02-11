@@ -115,7 +115,7 @@ btn.addEventListener('click',(e)=>{
 })
 
 function fetchData() {
-    const url = `https://api.weatherapi.com/v1/current.json?key=901cb749b9c44857b0e85731230902&q=${inField.value}&aqi=no`
+    const url = `https://api.weatherapi.com/v1/current.json?key=${YourKey}&q=${inField.value}&aqi=no`
     if(inField.value != null) {
       fetch(url)
       .then(res => res.json())
