@@ -10,7 +10,7 @@ and you will get free access for few weeks and you have to pay if you still want
 Here are few images of how the websites looks like.
 
 ![first](https://user-images.githubusercontent.com/121557455/218276106-74eb40b7-c9e1-4eb5-a406-a9614455a383.png)
-                               ![second3](https://user-images.githubusercontent.com/121557455/218276367-040b205b-b9db-4a3d-976e-5b6ec400d8e0.png)
+![second3](https://user-images.githubusercontent.com/121557455/218276367-040b205b-b9db-4a3d-976e-5b6ec400d8e0.png) View on short screen devices
 
 
 
