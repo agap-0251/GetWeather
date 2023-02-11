@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetWeather()...</title>
+    <link rel="shortcut icon" type="image/jpg" href="./images/favicon.png"/>   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="weatherApp">
+        <div class="container">
+            <div class="header">
+                <img src="./images/WeatherImg.png" alt="">
+                <h3 class="brand">GetWeather()...</h3>
+            </div>
+            
+            <div class="left-main">
+                <div>
+                    <h1 class="temp">16&#176;</h1>
+                </div>
+                
+                <div class="city-time">
+                    <h1 class = 'city-name'>New York</h1>
+                    <small class="date-time">
+                        <p class="time">8:00<span> - </span><span class = 'data'>Friday  9 , 10 2021</span></p>   
+                    </small>
+                </div>
+                <div class="detail">
+                    <img src="" alt="" id = 'iconI'>
+                    <small class = 'type'>Sunny</small>
+                </div>
+            </div>
+        </div>
+        <form action="#" class="advDetail">
+            <div class="search-bar">
+                <input type="text" id = 'search' placeholder = 'Search Location...'>
+                <i class="fa fa-search"></i>
+            </div>
+            <div class="basic-cities">
+                <ul>
+                    <li class = 'city'>New York</li>
+                    <li class = 'city'>California</li>
+                    <li class = 'city'>Paris</li>
+                    <li class = 'city'>Tokyo</li>
+                </ul>
+            </div>
+            
+            <div class="Statistics">
+                <h1>Weather Details</h1>
+                <div class="last-div">
+                    <div class="weather-Param">
+                        <ul>
+                            <li>Cloudy</li>
+                            <li>Humidity</li>
+                            <li>Wind</li>
+                        </ul>
+                    </div>
+                    <div class="Param-v">
+                        <ul>
+                            <li class = 'cloudy-v'>25%</li>
+                            <li class = 'humid-v'>60%</li>
+                            <li class = 'wind-v'>6.4Kmph</li>
+                        </ul>
+                </div>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</body>
+</html>
