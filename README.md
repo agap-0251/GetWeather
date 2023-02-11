@@ -6,7 +6,8 @@ Ofcourse, you can use React or Jquery to make to easily , you have to know what 
 help of libraries and frameworks.
 
 I have to used WeatherAPI to access the weather details in various places.You can just go create an account
-and you will get free access for few weeks and you have to pay if you still want to use the API.
+and you will get free access for few weeks and you have to pay if you still want to use the API
+[Weather API](https://www.weatherapi.com/).
 Here are few images of how the websites looks like.
 
 ![first](https://user-images.githubusercontent.com/121557455/218276106-74eb40b7-c9e1-4eb5-a406-a9614455a383.png)
