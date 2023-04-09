@@ -4,6 +4,11 @@
     --rightSide : rgb(248, 223, 223);
 }
 
+.flex {
+    display: flex;
+
+}
+
 *,*::before,*::after {
     margin: 0;
     padding: 0;
@@ -13,6 +18,22 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+.header button {
+    padding: 0.9rem;
+    border: none;
+    border-radius: 1.2rem;
+    margin-right: 1rem;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    font-size: 1rem;
+}
+
+.header button:hover {
+   opacity: 0.8;
+    cursor: pointer;
+}
+
 body {
     width: 100vw;
     height: 100vh; 
@@ -37,12 +58,15 @@ body {
     column-gap: 10px;
     align-items: center;
     padding: 3rem 0 0 3rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .brand {
     font-weight: bold;
     font-size: 2.7rem;
     cursor:context-menu;
+   
 }
 
 .container img {
@@ -238,5 +262,12 @@ ul {
     }
     .advDetail {
         font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width : 864px){
+    .header button {
+        font-size: 0.7rem;
+        padding: 0.5rem;
     }
 }

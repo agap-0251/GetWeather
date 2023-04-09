@@ -11,6 +11,8 @@ const humid = document.querySelector('.humid-v');
 const wind = document.querySelector('.wind-v');
 const iconSet = document.querySelector('#iconI');
 const cityList = document.querySelectorAll('.city');
+const currLoc = document.getElementById("currLoc")
+let latitude, longitude;
 
 //temp location
 inField.value = "Mumbai";
@@ -91,6 +93,32 @@ function  backGChange(res) {
       }
 }
 
+currLoc.onclick = () => {
+  getCurrentLocation()
+}
+
+function onSuccess(position) {
+  latitude = position.coords.latitude;
+  longitude = position.coords.longitude;
+  fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localityLanguage=en`)
+  .then(res => res.json())
+  .then(d => {
+    inField.value = d.city;
+    fetchData()
+  })
+}
+
+function getCurrentLocation() {
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(onSuccess, onerror)
+  }
+  else {
+    alert("Your browser not supporting geo location API")
+  }
+}
+
+
+
 function assignVal(report) {
   backGChange(report);
   let localTime = report.location.localtime;
@@ -101,6 +129,7 @@ function assignVal(report) {
   const weekday = getDayOfWeek(dateDay,month,year);
   timeAt.innerHTML = `${time}<span> - </span><span class = 'data'>${weekday}  ${dateDay} , ${month}  ${year}</span>`;
   cityName.innerText = inField.value;
+  inField.value = ""
   temp.innerHTML = `${report.current.temp_c}&#176;`
   type.innerText = report.current.condition.text;
   cloud.innerText = `${report.current.cloud}%`;
@@ -115,10 +144,12 @@ btn.addEventListener('click',(e)=>{
 })
 
 function fetchData() {
-    const url = `https://api.weatherapi.com/v1/current.json?key=${YourKey}&q=${inField.value}&aqi=no`
+    const url = `https://api.weatherapi.com/v1/current.json?key=901cb749b9c44857b0e85731230902&q=${inField.value}&aqi=no`
     if(inField.value != null) {
       fetch(url)
       .then(res => res.json())
-      .then(data =>assignVal(data))
+      .then(data =>{
+        // console.log(data)
+        assignVal(data)})
     }
 }
