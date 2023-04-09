@@ -20,3 +20,5 @@ You just have to use your own API key in JS file instead of mine.I only get it f
 I will also include Forecasting the weather option and other cools options in the future.
 
 You are welcome to suggest or share your views about the project.
+
+The Website is live on Netlify - [GetWeather-...](https://bejewelled-zabaione-2b6d9a.netlify.app/)
