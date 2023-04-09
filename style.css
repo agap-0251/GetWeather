@@ -265,6 +265,68 @@ ul {
     }
 }
 
+@media screen and (max-width : 408px){
+
+    .body {
+        overflow-y: auto;
+    }
+
+    .brand {
+        font-size: 1.4rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .city-name {
+        font-size: 1.5rem;
+    }
+
+    .advDetail {
+        padding: 1rem 1.5rem 1rem 1.6rem;
+    }
+
+    .header {
+        justify-content: space-between;
+        padding: 3rem 0 0 1.6rem;
+    }
+
+    .left-main {
+        padding: 2.5rem 2.5rem 2.5rem 1rem;
+    }
+
+    .flex img {
+        width: 2rem;
+        height: 2rem;
+    }
+    .fa-search {
+        border-radius: 1rem;
+        padding: 4px;
+    }
+
+    .temp {
+        font-size: 4rem;
+    }
+
+    .header button {
+        margin-right:2rem;
+    }
+    .date-time {
+        font-size: 0.7rem;
+    }
+
+    #iconI {
+        margin-right: 0.5rem;
+        margin-left: 1rem;
+    }
+
+    .search-bar {
+        display: grid;
+        grid-template-columns: 3.5fr 1fr;
+        column-gap: 4px;
+    }
+
+}
+
 @media screen and (max-width : 864px){
     .header button {
         font-size: 0.7rem;
