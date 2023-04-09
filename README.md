@@ -10,8 +10,9 @@ and you will get free access for few weeks and you have to pay if you still want
 [Weather API](https://www.weatherapi.com/).
 Here are few images of how the websites looks like.
 
-![first](https://user-images.githubusercontent.com/121557455/218276106-74eb40b7-c9e1-4eb5-a406-a9614455a383.png)
-![second3](https://user-images.githubusercontent.com/121557455/218276367-040b205b-b9db-4a3d-976e-5b6ec400d8e0.png) View on short screen devices
+![largeWeatherimage](https://user-images.githubusercontent.com/121557455/230760957-d0adc2f8-7946-4d28-ad39-00f0b76a0059.png)
+
+![smallscreenImageNew](https://user-images.githubusercontent.com/121557455/230760983-485d840c-8567-493c-9885-699fced8b778.png)
 
 
 
