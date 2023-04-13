@@ -48,7 +48,7 @@ function  backGChange(res) {
   let code = res.current.condition.code;
   //clear code
   if(code === 1000) {
-      app.style.backgroundImage = `url(./images/${imgSpec}/${imgSpec}.jpg)`;   
+      app.style.backgroundImage = `url(./images/${imgSpec}/${imgSpec}.webp)`;   
   }
   //cloud code
   else if(code === 1003 ||
@@ -63,7 +63,7 @@ function  backGChange(res) {
     code === 1279 ||
     code === 1282
     ) {
-      app.style.backgroundImage =  `url(./images/${imgSpec}/${imgSpec}Clouds.jpg)`;
+      app.style.backgroundImage =  `url(./images/${imgSpec}/${imgSpec}Clouds.webp)`;
     }
     //rain code
     else if(code === 1063 ||
@@ -85,11 +85,11 @@ function  backGChange(res) {
       code === 1249 ||
       code === 1252
       ) {
-        app.style.backgroundImage =  `url(./images/${imgSpec}/${imgSpec}Rain.jpg)`;
+        app.style.backgroundImage =  `url(./images/${imgSpec}/${imgSpec}Rain.webp)`;
       }
       //else snow
       else {
-        app.style.backgroundImage =  `url(./images/${imgSpec}/${imgSpec}Snow.jpg)`;
+        app.style.backgroundImage =  `url(./images/${imgSpec}/${imgSpec}Snow.webp)`;
       }
 }
 
